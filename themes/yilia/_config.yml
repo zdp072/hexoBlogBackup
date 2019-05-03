@@ -2,7 +2,7 @@
 
 menu:
   主页: /
-  #随笔: /tags/随笔/
+  归档: /archives/index.html
 
 # SubNav
 subnav:
@@ -69,6 +69,13 @@ avatar: /assets/me.ico
 
 #是否开启分享
 share_jia: true
+
+#版权声明0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明
+declare_type: 1
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
+licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+
 
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
 #不需要使用某项，直接设置值为false，或注释掉
