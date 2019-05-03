@@ -8,7 +8,7 @@
         <a class="cloud-tie-join-count" href="javascript:void(0);">
           <span class="icon-sort"></span>
           <span id="busuanzi_container_page_pv" style="color: #999999; font-size: 14px; display: inline;">
-            阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+            阅读数: <span id="busuanzi_value_page_pv">-</span>次 &nbsp;&nbsp;
           </span>
         </a>
 
@@ -33,7 +33,7 @@
         sUrl = /^(http:|https:)\/\//.test(sUrl) ? sUrl : 'https:' + sUrl;
       %>
       <% if ((theme.declare_type === 2 || (theme.declare_type === 1 && post.declare)) && !index){ %>
-        <div class="declare">
+        <div style="background-color: #eaeaea; margin-top: 2em; border-left: 3px solid #ff1700; padding: .5em 1em;">
           <strong>本文作者：</strong>
           <% if(config.author != undefined){ %>
             <%= config.author%>
