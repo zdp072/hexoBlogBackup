@@ -1,3 +1,7 @@
+.deploy_git
 .DS_Store
+package-lock.json
 node_modules/
+themes/.DS_Store
 themes/yilia/node_modules/
+themes/yilia/package-lock.json
