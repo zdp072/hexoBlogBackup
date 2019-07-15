@@ -4,7 +4,7 @@ declare: true
 toc: true
 date: 2019-07-13 11:00:15
 tags:
-	idea eclipse 快捷键
+	idea
 ---
 
 
@@ -17,8 +17,10 @@ tags:
 1. 【idea】Alt + F7
 2. 【eclipse】Ctrl + Alt + H
 
+<!-- more -->
+
 ### 搜索文件
-1. 【idea】Ctrl + Shift + N
+1. 【idea】Ctrl + Shift + N | 双击Shift
 2. 【eclipse】Ctrl + Shift + T
 
 ### 搜索类
@@ -37,6 +39,12 @@ tags:
 2. 【eclipse】Ctrl + F
 
 ## 编辑
+### 自动模板代码
+1. sout、psvm、fori
+
+### 自动包装try/if/else
+1. 【idea】选中代码，Ctrl + Alt + T
+
 ### 代码自动补全
 1. 【idea】Ctrl + /
 2. 【eclipse】Ctrl + /
@@ -65,6 +73,12 @@ tags:
 ### 整理Import
 1. 【idea】Ctrl + Alt + O
 2. 【eclipse】Ctrl + Shift + O
+
+### 另起一行
+1. 【idea】Shift + Enter
+
+### 选中一行代码
+1. 【idea】Ctrl + W
 
 ## 跳转
 ### 跳到方法调用处
@@ -98,3 +112,6 @@ tags:
 
 ### 调出项目导航
 1. 【idea】Ctrl + 1
+
+### 显式类的结构图
+1. 【idea】Ctrl + H
